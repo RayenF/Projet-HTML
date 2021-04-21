@@ -1,0 +1,19 @@
+.conteneur{
+    max-width: 400px;
+    margin: 50px auto;
+}
+.d1{
+    width: 720px;
+    height:  360px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+@keyframes fondu{
+    0%{background-image: url("wano.jpg") ;}
+    33.33%{background-image: url("your_name.jpg");}
+    66.67%{background-image: url("paysagemha.jpg");}
+    100%{background-image: url("dbs.jpg");}
+}

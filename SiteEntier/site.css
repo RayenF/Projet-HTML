@@ -1,0 +1,36 @@
+p {
+	font-size: 15px;
+}
+.titre {
+	text-align: center;
+
+}
+.contenu {
+		display:block;
+}
+h1  {
+	border-color :  #988C8C;
+	background :  #988C8C;
+	color : white;
+	margin-left : 43%;
+	margin-right: 43%;
+	margin-top : -5%;
+	
+}
+h2 {
+	margin-left : 37.4%;
+}
+.Fin {
+	border-color: black;
+	padding-right: 800px;
+	padding-left: 500px;
+	background: black;
+	color: white;
+	font-size: 5px;
+}
+table{
+	font-size: 10px;
+}
+.intend {
+	text-indent: 200px;
+}

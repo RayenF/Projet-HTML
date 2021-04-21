@@ -1,0 +1,9 @@
+#content_area
+{
+float: left; 
+margin: 5px;
+border: 1px solid #000000;
+text-align: center;
+height: 7.5em;
+width: 6em; 
+}

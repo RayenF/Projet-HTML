@@ -1,0 +1,25 @@
+
+body{
+/*Remove below line to make bgimage NOT fixed*/
+background-attachment:fixed;
+
+ background-repeat:no-repeat;
+/*Use center center in place of 300 200 to center bg image*/
+background-position: 0 0;
+ min-height: 100%;
+ min-width: 1024px;
+  width: 100%;
+ height: auto;
+ 
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+
+
+@media screen and (max-width: 1024px) { /* Le traitement est ici spécifique à l'image */
+ body {
+ left: 50%;
+ margin-left: -512px; /* 50% */
+ }
+}
